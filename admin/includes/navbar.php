@@ -22,13 +22,13 @@ include('includes/header.php')
   <!-- Super Admin -->
   <?php if($_SESSION["auth"]) : ?>
   <div class="nav-links" id="adminNavLinks">
-    <a href="index.php">Dashboard</a>
-    <a href="admission.php">Students in Waiting</a>
-    <a href="students.php">Students On Board</a>
-    <a href="">Resources</a>
+    <a href="index.php">Bookings</a>
+    <a href="shipped.php">Shipped Packages</a>
+    <a href="delivered.php">Delivered Packages</a>
+    <!-- <a href="">Resources</a>
     <a href="">Service Booked</a>
     <a href="">Users</a>
-    <a href="">Profile Settings</a>
+    <a href="">Profile Settings</a> -->
     <button><a href="logout.php">Logout</a></button>
   </div>
   <?php endif; ?>
